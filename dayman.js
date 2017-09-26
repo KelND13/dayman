@@ -12,11 +12,9 @@ $( document ).ready( function() {
     		$('body').removeClass('day').addClass('night');
 		}
 
-		if ($('#song').text("Dayman")) {
-			$('#song').text("Fighter of the Nightman");
-		} else {
-			$('song').text("Dayman");
-		}
+		$('#song').text(function(i, text) {
+			return text === "Dayman" ? "Fighter of the Nightman" : "Dayman";
+		})
 
     });
 
