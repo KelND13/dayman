@@ -1,3 +1,69 @@
-.black: {
+.black {
   background-color: black;
+}
+
+.white {
+	background-color: white;
+}
+
+#orb {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    padding: 20px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: #blue;
+}
+
+#lyric {
+	margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    text-align: center;
+    padding-top: 140px;
+    font: Helvetica;
+    color: black;
+    font-size: 20px;
+}
+
+#song {
+	font-size: 64px;
+	margin: auto;
+	position: absolute;
+	top:0; left:0; bottom:0; right:0;
+	text-align: center;
+	font: Helvetica;
+	color: white;
+}
+
+.sun {
+    background-color: yellow;
+    border: 10px solid #f1c40f;
+}
+
+.sun:hover {
+    border: 20px solid #f1c40f;
+}
+
+.moon {
+    background-color: gray;
+    border: 10px solid #eaeff2;
+}
+
+.moon:hover {
+    border: 20px solid #f1c40f;
+}
+.night {
+    background-color: black;
+}
+
+.day {
+    background-color: blue;
+}
+
+.test {
+	color: blue;
+	font: Helvetica;
 }
